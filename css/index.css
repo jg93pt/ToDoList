@@ -1,0 +1,64 @@
+/*Body background-color:*/
+body {
+  background: #36D1DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5B86E5, #36D1DC); 
+}
+
+h2 {
+  color: #000;
+  font-weight: bold;
+}
+
+.container {
+  margin-top: 30px;
+  box-shadow:0 .5rem 1rem;
+  background-color: #fff; 
+}
+
+.spacetable{
+  height: 60px;
+}
+
+.form-check-input{
+  height: 1.8em;
+  width: 1.8em;
+}
+
+.listStyle {
+  border: 0;
+  background-color: transparent;
+}
+.listStyle:hover {
+ background-color: #22c1c3;
+ border: 1px solid black;
+}
+/*Remove the border top and bottom line in smaller screens*/
+@media (max-width: 767px)
+{
+  .table-responsive {
+    border-top: none;
+    border-bottom: none;
+  }
+}
+
+.form-style{
+  margin: 10px;
+}
+
+  
+/*Little animation for create new item:*/
+@keyframes append-animate {
+	from {
+		transform:scale(0);
+		opacity: 1;
+	}
+	to {
+		transform: scale(1);
+		opacity: 1;	
+	}
+}
+
+.transit {
+	animation: append-animate .5s ease-in;
+}
