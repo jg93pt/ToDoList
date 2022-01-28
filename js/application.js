@@ -1,5 +1,5 @@
 /*Functions using ToDo List AltCademy Restful API*/ 
-$(document).ready(function(){
+$(document).ready(function() {
 // GET all tasks
 var getAllTasks = function () {
   $.ajax({
