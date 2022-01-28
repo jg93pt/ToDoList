@@ -25,19 +25,10 @@ h2 {
   width: 1.8em;
 }
 
-.listStyle {
-  border: 0;
-  background-color: transparent;
-}
-.listStyle:hover {
- background-color: #36D1DC;
- border: 1px solid black;
+.list-group-item-action:hover {
+  background-color: #36D1DC;
 }
 
-.selected {
-  background-color: #36D1DC;
- border: 1px solid black;
-}
 /*Remove the border top and bottom line in smaller screens*/
 @media (max-width: 767px)
 {
