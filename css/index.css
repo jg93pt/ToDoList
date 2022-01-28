@@ -29,16 +29,33 @@ h2 {
   background-color: #36D1DC;
 }
 
-/*Remove the border top and bottom line in smaller screens*/
-@media (max-width: 767px)
+/*smaller screens*/
+@media (max-width: 991px)
 {
   .table-responsive {
     border-top: none;
     border-bottom: none;
   }
+
+  .d-flex{
+    display: block!important;
+  }
+  ul {
+    margin-left: -3.7rem!important;
+  }
+
+  #addTask {
+    margin-left: 0.5rem!important;
+  }
+}
+
+@media (max-width: 575px) {
+  ul {
+    margin-left: -4rem!important;
+  }
 }
 
 .form-style{
-  margin: 10px;
+  margin-top: 10px;
 }
 
