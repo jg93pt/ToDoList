@@ -30,7 +30,12 @@ h2 {
   background-color: transparent;
 }
 .listStyle:hover {
- background-color: #22c1c3;
+ background-color: #36D1DC;
+ border: 1px solid black;
+}
+
+.selected {
+  background-color: #36D1DC;
  border: 1px solid black;
 }
 /*Remove the border top and bottom line in smaller screens*/
@@ -46,19 +51,3 @@ h2 {
   margin: 10px;
 }
 
-  
-/*Little animation for create new item:*/
-@keyframes append-animate {
-	from {
-		transform:scale(0);
-		opacity: 1;
-	}
-	to {
-		transform: scale(1);
-		opacity: 1;	
-	}
-}
-
-.transit {
-	animation: append-animate .5s ease-in;
-}
